@@ -30,7 +30,7 @@ void loop() {
   delay(1000);
 
   Serial.println("Sending USSD command to check balance:");
-  SIM900.print("AT+CUSD=1,\"*1#\"\r"); // send USSD command to check balance
+  SIM900.print("AT+CUSD=1,\"*121#\"\r"); // send USSD command to check balance
   delay(1500); // give the SIM900 time to respond
 
   String response = "";
