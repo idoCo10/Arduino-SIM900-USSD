@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 
-SoftwareSerial SIM900(8, 7); // RX, TX
+SoftwareSerial SIM900(8, 7); // RX, TX on Arduino
 
 void setup() {
   SIM900.begin(19200); // set the baud rate for the SIM900
